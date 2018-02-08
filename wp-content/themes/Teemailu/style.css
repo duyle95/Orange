@@ -1,0 +1,126 @@
+body {
+color: black;
+  background-color: white;
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+.container{
+  border:none;
+}
+
+li {
+	display: inline-block;
+	width: 20%;
+	text-align: center;
+	padding-top: 2 px;
+	padding-bottom: 2 px;
+	border: 1px solid black;
+}
+
+img {
+
+	max-width: 80%
+}
+
+hr {
+	border-top: 12px solid orange;
+}
+
+.ads {
+  height: 10%;
+  text-align: center;
+  border: 4px solid grey;
+}
+
+.ads-text-vertical {
+  height: 10%;
+  border-left: solid orange 12px;
+}
+
+.title {
+  text-align: center;
+  height: 10%;
+  color : white;
+  background-color: orange;
+}
+
+.title-text {
+  font-size: 30px;
+  font-weight: 400;
+  margin: 20px 0;
+}
+
+.side {
+  border-right: solid orange 12px;
+}
+
+.ads-main {
+  height: 100px;
+  text-align: center;
+  border: 4px solid grey;
+  margin: 10px 0;
+}
+
+#image-float {
+  margin-left: 75px;
+}
+
+.columns {
+}
+.column-img {
+  float: right;
+}
+
+.affix{
+      top: 1px;
+      left:inherit;
+      width:20%;
+      height:81.7%;
+      z-index: 9999 !important;
+      overflow-x: auto;
+  }
+
+  .row{
+    margin-top: 2px;
+  }
+
+/*  .buttom {
+  width:85%;
+  position: relative;
+  float:center;
+  left:115px;
+  text-align: center;
+  border: 2px solid grey;
+}*/
+
+.thumbnail{
+  background-color: inherit;
+  border: none;
+  float: :left;
+  margin-top: 2px;
+  text-align: center;
+}
+
+.footer {
+  height:300px;
+  background-color: #efefef;
+  color:black;
+  left:100px;
+  text-align:center;
+}
+
+.buttom {
+  width:100%;
+  position: relative;
+  float:center;
+  height:85px;
+  margin-top: 3200px;
+}
+.adv5, .adv6 {
+  width:30%;
+  height:auto;
+  border-right: orange;
+}
